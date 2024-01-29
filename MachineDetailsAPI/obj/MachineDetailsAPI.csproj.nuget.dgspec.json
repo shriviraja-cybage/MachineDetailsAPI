@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shriviraja\\source\\repos\\MachineDetailsAPI\\MachineDetailsAPI\\MachineDetailsAPI.csproj": {}
+    "C:\\Users\\shriviraja\\Source\\Repos\\MachineDetailsAPI\\MachineDetailsAPI\\MachineDetailsAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shriviraja\\source\\repos\\MachineDetailsAPI\\MachineDetailsAPI\\MachineDetailsAPI.csproj": {
+    "C:\\Users\\shriviraja\\Source\\Repos\\MachineDetailsAPI\\MachineDetailsAPI\\MachineDetailsAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shriviraja\\source\\repos\\MachineDetailsAPI\\MachineDetailsAPI\\MachineDetailsAPI.csproj",
+        "projectUniqueName": "C:\\Users\\shriviraja\\Source\\Repos\\MachineDetailsAPI\\MachineDetailsAPI\\MachineDetailsAPI.csproj",
         "projectName": "MachineDetailsAPI",
-        "projectPath": "C:\\Users\\shriviraja\\source\\repos\\MachineDetailsAPI\\MachineDetailsAPI\\MachineDetailsAPI.csproj",
+        "projectPath": "C:\\Users\\shriviraja\\Source\\Repos\\MachineDetailsAPI\\MachineDetailsAPI\\MachineDetailsAPI.csproj",
         "packagesPath": "C:\\Users\\shriviraja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shriviraja\\source\\repos\\MachineDetailsAPI\\MachineDetailsAPI\\obj\\",
+        "outputPath": "C:\\Users\\shriviraja\\Source\\Repos\\MachineDetailsAPI\\MachineDetailsAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shriviraja\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,7 +21,6 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +39,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -64,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

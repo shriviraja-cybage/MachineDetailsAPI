@@ -13,12 +13,6 @@ FROM mcr.microsoft.com/windows/servercore/iis AS runtime
 WORKDIR /inetpub/wwwroot
 COPY --from=build /app/build .
 
-# Install IIS components
-RUN powershell -Command \
-    Install-WindowsFeature Web-Server; \
-    Remove-Website -Name 'Default Web Site'; \
-    New-Website -Name 'MachineDetailsAPI' -Port 80 -PhysicalPath 'C:\inetpub\wwwroot' -ApplicationPool '.NET v6.0' -Force
-
 # Expose the necessary ports
 EXPOSE 80
 
